@@ -1,203 +1,32 @@
-.inicio .logo-corto-color-1 {
-  background: url('/assets/images/logo_corto_ceecs.png') 50% / cover no-repeat;
-  width: 225px;
-  height: 80px;
-}
-.inicio .tu-centro-de-estudiantes {
-  margin-right: 8.5px;
-  width: 183.5px;
-  overflow-wrap: break-word;
-  font-family: 'Inter';
-  font-weight: 500;
-  font-size: 20px;
-  color: #000000;
-}
-.inicio .representacin-estudiantil {
-  overflow-wrap: break-word;
-  font-family: 'Inter';
-  font-weight: 500;
-  font-size: 20px;
-  color: #000000;
-}
-.inicio .asesoramiento-yapoyo {
-  overflow-wrap: break-word;
-  font-family: 'Inter';
-  font-weight: 500;
-  font-size: 20px;
-  color: #000000;
-}
-.inicio .ms {
-  overflow-wrap: break-word;
-  font-family: 'Inter';
-  font-weight: 500;
-  font-size: 20px;
-  color: #000000;
-}
-.inicio .container-3 {
-  margin-bottom: 30px;
-  margin-top: 30px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  width: 600px;
-  height: fit-content;
-  /* box-sizing: border-box; */
-}
-.inicio .container {
-  background: #FFFFFF;
-  /* position: relative; */
-  margin-bottom: 21px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  padding: 28px 22px 27px 20px;
-  width: 97%;
-  /* height: 80%; */
-}
-.inicio .biblioteca-virtual {
-  overflow-wrap: break-word;
-  font-family: 'Inter';
-  font-weight: 700;
-  font-size: 32px;
-  color: #FFFFFF;
-}
-.inicio .container-4 {
-  border-radius: 35px;
-  background: #ECAE20;
-  position: relative;
-  padding: 34px 29px 0 29px;
-  width: 30%;
-  height: 201px;
-  /* box-sizing: border-box; */
-}
-.inicio .pr-ximas-actividades {
-  overflow-wrap: break-word;
-  font-family: 'Inter';
-  font-weight: 700;
-  font-size: 32px;
-  color: #ECAE20;
-  margin-left: 8%;
-
-}
-.inicio .container-5 {
-  border-radius: 35px;
-  background: #FFFFFF;
-  position: relative;
-  display: flex;
-  padding: 31px 49.9px 53px 0;
-  width: 30%;
-  /* box-sizing: border-box; */
-}
-.inicio .qui-nes-somos {
-  overflow-wrap: break-word;
-  font-family: 'Inter';
-  font-weight: 700;
-  font-size: 32px;
-  color: #FFFFFF;
-}
-.inicio .container-2 {
-  border-radius: 35px;
-  background: #ECAE20;
-  position: relative;
-  margin-top: 2px;
-  padding: 21px 25px 0 25px;
-  width: 30%;
-  height: 199px;
-  /* box-sizing: border-box; */
-}
-.inicio .container-1 {
-  margin: 0 19px 23px 19px;
-  display: flex;
-  flex-direction: row;
-  column-gap: 20px;
-  width: 100%;
-  /* box-sizing: border-box; */
-}
-.inicio .dsc-0466411 {
-  background: url('/assets/images/dsc_046641.jpeg') 50% / cover no-repeat;
-  /* width: fit-content; */
-  width: 1826px;
-  height: 1042px;
-}
-.inicio .dsc-046641 {
-  margin: 0 19px;
-  display: flex;
-  /* width: 913px;
-  height: 521px; */
-  /* box-sizing: border-box; */
-}
-.inicio {
-  /* border: 1px solid #000000; */
-  background: #D9D9D9;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-bottom: 47px;
-  width: 100%;
-
-  /* box-sizing: border-box; */
-}
-
 html, body{
   margin : 0 0 0 0;
   height: 100%;
+  background-color: #D9D9D9;
 }
 
-
-.inicio .tienes-una-idea-para-el-centro-de-estudiantes-djala-aqu {
-  margin-left: 1px;
-  overflow-wrap: break-word;
-  font-family: 'Inter';
-  font-weight: 400;
-  font-size: 20px;
-  text-transform: uppercase;
-  color: #000000;
-}
-.inicio .container--9 {
-  margin: 15.5px 0 45.5px 0;
+.grande{
+  width: 100%;
+  height: 400px;
   display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
 }
-.inicio .container-7 {
-  border-radius: 33px;
-  background: #ECAE20;
-  position: relative;
-  margin: 0 19px;
+
+.medio{
+  border: 2px solid #000000;
+  height: 50%;
+  border-radius: 65px;
   display: flex;
-  flex-direction: row;
-  padding: 26.5px 0;
-  width: 90%;
-  box-sizing: border-box;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #ECAE20;
 }
-.inicio .tus-ideas {
-  margin-bottom: 9px;
-  display: inline-block;
-  align-self: flex-start;
-  overflow-wrap: break-word;
-  font-family: 'Inter';
-  font-weight: 800;
-  font-size: 40px;
-  text-transform: uppercase;
-  color: #000000;
+.medio:hover{
+  cursor: pointer;
 }
-.inicio .vector {
-  width: 89.1px;
-  height: 166px;
+.texto{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
 }
-.inicio .inbox-icon-svg-co {
-  margin-right: 43.9px;
-  margin-left: 43.9px;
-  display: flex;
-  width: 89.1px;
-  height: 166px;
-  box-sizing: border-box;
-}
-
-
-
-
-
-
-
