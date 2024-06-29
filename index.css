@@ -1,5 +1,5 @@
 .inicio .logo-corto-color-1 {
-  background: url('../assets/images/logo_corto_ceecs.png') 50% / cover no-repeat;
+  background: url('/assets/images/logo_corto_ceecs.png') 50% / cover no-repeat;
   width: 225px;
   height: 80px;
 }
@@ -115,7 +115,7 @@
   /* box-sizing: border-box; */
 }
 .inicio .dsc-0466411 {
-  background: url('../assets/images/dsc_046641.jpeg') 50% / cover no-repeat;
+  background: url('/assets/images/dsc_046641.jpeg') 50% / cover no-repeat;
   /* width: fit-content; */
   width: 1826px;
   height: 1042px;
